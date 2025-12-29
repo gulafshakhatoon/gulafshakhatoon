@@ -69,7 +69,7 @@ This project was developed through teamwork, with 3 members collaborating on des
 - Team members worked together to plan, develop, and test the website to ensure clarity and usability.
 
 ## Website Link
-Here I give my website link below 👇
+- Here I give my website link below 👇.
 Helping Hands 👉 https://share.google/9tywoEpLJJNoYpNwy
 
 
