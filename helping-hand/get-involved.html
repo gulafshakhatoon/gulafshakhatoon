@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Get Involved - Helping Hands</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background-color: #fdf6f0;
+      font-family: 'Arial', sans-serif;
+      padding-top: 90px;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background-color: maroon;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      flex-wrap: wrap;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    .logo h1 {
+      font-style: italic;
+      font-size: 24px;
+      margin: 0;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    .nav-links a:hover {
+      color: #ffc107;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background-color: #fff5f5;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      margin-bottom: 40px;
+    }
+
+    section h2 {
+      color: maroon;
+      border-bottom: 2px solid maroon;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    section p {
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .work-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .work-card {
+      background-color: white;
+      border-radius: 12px;
+      padding: 25px 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.6s, transform 0.6s;
+      text-align: center;
+      opacity: 0;
+      transform: translateY(30px);
+    }
+
+    .work-card.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .work-card:hover {
+      transform: translateY(-7px) scale(1.05);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .work-card h4 {
+      color: maroon;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    .work-card p {
+      font-size: 15px;
+      color: #333;
+    }
+
+    .work-card .counter {
+      font-size: 26px;
+      font-weight: bold;
+      color: maroon;
+      margin-top: 15px;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    /* New section: How You Can Help */
+    .help-points {
+      margin-top: 40px;
+    }
+
+    .help-points ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    .help-points ul li {
+      margin-bottom: 10px;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    footer {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer .logo-footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+
+    footer .logo-footer img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    footer .logo-footer span {
+      font-style: italic;
+      font-size: 20px;
+    }
+
+    @media(max-width: 480px){
+      section {
+        padding: 40px 15px;
+      }
+
+      .work-card h4 {
+        font-size: 18px;
+      }
+
+      .work-card p {
+        font-size: 14px;
+      }
+
+      .work-card .counter {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="https://uploads.onecompiler.io/43xf9b4je/43xf475m4/logo.png" alt="Logo">
+      <h1>HELPING HANDS</h1>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT US</a>
+      <a href="work.html">OUR WORK</a>
+    </div>
+  </header>
+<!-- Social Sidebar -->
+<div class="social-sidebar">
+    <a href="https://facebook.com" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook">
+    </a>
+    <a href="https://twitter.com" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg" alt="Twitter">
+    </a>
+    <a href="https://instagram.com" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram">
+    </a>
+    <a href="mailto:youremail@example.com">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/maildotru.svg" alt="Email">
+    </a>
+</div>
+  <!-- Main Content -->
+  <section>
+    <h2>Get Involved</h2>
+
+    <p>
+      Everyone can make a difference. Here’s how you can contribute to the NGOs and causes we support:
+    </p>
+
+    <div class="work-cards">
+      <div class="work-card" data-count="1200">
+        <h4>🤝 Volunteer</h4>
+        <p>Join NGOs in their programs and initiatives to help communities in need.</p>
+        <div class="counter">0</div>
+      </div>
+      <div class="work-card" data-count="850">
+        <h4>💰 Donate</h4>
+        <p>Provide financial support to help NGOs continue their work and expand their reach.</p>
+        <div class="counter">0</div>
+      </div>
+      <div class="work-card" data-count="950">
+        <h4>📣 Spread Awareness</h4>
+        <p>Share NGO activities and causes with your network to encourage more people to get involved.</p>
+        <div class="counter">0</div>
+      </div>
+      <div class="work-card" data-count="600">
+        <h4>🛠 Skill Sharing</h4>
+        <p>Offer your skills in areas like teaching, healthcare, marketing, or event organization.</p>
+        <div class="counter">0</div>
+      </div>
+      <div class="work-card" data-count="400">
+        <h4>🎯 Fundraising</h4>
+        <p>Organize campaigns or events to raise funds for important social causes.</p>
+        <div class="counter">0</div>
+      </div>
+    </div>
+
+    <!-- Additional Section -->
+    <div class="help-points">
+      <h3>💡 How You Can Help</h3>
+      <ul>
+        <li>Connect with local NGOs to learn their immediate needs.</li>
+        <li>Attend workshops and events organized by NGOs.</li>
+        <li>Mentor or guide volunteers in your area of expertise.</li>
+        <li>Share inspiring stories on social media to motivate others.</li>
+        <li>Participate in community awareness programs.</li>
+      </ul>
+    </div>
+
+    <p>
+      Explore our NGO directory on the <a href="index.html">home page</a> to find opportunities and connect directly with organizations.
+    </p>
+  </section>
+
+<footer>
+    <div class="footer-top">
+      <div class="logo-footer">
+        <img src="https://uploads.onecompiler.io/43xf9b4je/43xf475m4/logo.png" alt="Logo">
+        <span>HELPING HANDS</span>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="work.html">Our Work</a>
+        <a href="get-involved.html">Get Involved</a>
+      </div>
+
+   <div class="footer-social">
+  <a href="https://facebook.com" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="40" height="40">
+  </a>
+  <a href="https://twitter.com" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" width="40" height="40">
+  </a>
+  <a href="https://instagram.com" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="40" height="40">
+  </a>
+  <a href="mailto:youremail@example.com">
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="40" height="40">
+  </a>
+  </div>
+  </div>
+  
+  <div class="footer-bottom">
+      © 2025 Helping Hands. All rights reserved.
+    </div>
+
+
+  </footer>
+
+
+<!-- FontAwesome -->
+<script src="https://kit.fontawesome.com/3e7e55b61d.js" crossorigin="anonymous"></script>
+
+
+  <!-- Script: Scroll-triggered counter + fade-in cards -->
+  <script>
+    function animateCounter(counterEl, target) {
+      let count = 0;
+      const duration = 1000;
+      const steps = 40;
+      const increment = Math.ceil(target / steps);
+      const intervalTime = duration / steps;
+
+      if (counterEl.dataset.animated === "true") return;
+      counterEl.dataset.animated = "true";
+
+      const interval = setInterval(() => {
+        count += increment;
+        if (count >= target) {
+          count = target;
+          clearInterval(interval);
+        }
+        counterEl.textContent = count.toLocaleString();
+      }, intervalTime);
+    }
+
+    function triggerCounters() {
+      const cards = document.querySelectorAll(".work-card");
+      cards.forEach(card => {
+        const counter = card.querySelector(".counter");
+        const target = parseInt(card.dataset.count);
+
+        card.addEventListener("mouseenter", () => {
+          counter.dataset.animated = "false";
+          animateCounter(counter, target);
+        });
+      });
+    }
+
+    function isElementInViewport(el) {
+      const rect = el.getBoundingClientRect();
+      return rect.top < window.innerHeight && rect.bottom >= 0;
+    }
+
+    function checkCountersAndFade() {
+      const cards = document.querySelectorAll(".work-card");
+      cards.forEach(card => {
+        const counter = card.querySelector(".counter");
+        const target = parseInt(card.dataset.count);
+        if (isElementInViewport(card)) {
+          card.classList.add("visible"); // Fade-in effect
+          if (counter.dataset.animated !== "true") {
+            animateCounter(counter, target);
+          }
+        }
+      });
+    }
+
+    window.addEventListener("scroll", checkCountersAndFade);
+    window.addEventListener("load", () => {
+      triggerCounters();
+      checkCountersAndFade();
+    });
+  </script>
+
+</body>
+</html>
