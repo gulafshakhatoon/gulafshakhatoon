@@ -70,7 +70,7 @@ This project was developed through teamwork, with 3 members collaborating on des
 
 ## Website Link
 - Here I give my website link below 👇.
-Helping Hands 👉 https://share.google/9tywoEpLJJNoYpNwy
+- Helping Hands 👉 https://share.google/9tywoEpLJJNoYpNwy
 
 
 # Restaurant Website
