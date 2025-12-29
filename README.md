@@ -26,13 +26,9 @@
 - JavaScript practice  
 - Problem solving  
 
----
-
 ## 🔗 Connect With Me
 -  LinkedIn: https://www.linkedin.com/in/gulafsha-khatoon  
 -  GitHub: https://github.com/gulafshakhatoon  
-
----
 
  *Thank you for visiting my profile!*
 
@@ -49,9 +45,9 @@ It allows two players to play the game using X and O.
 - Displays winner or draw message
 
 ## Implementation
-The game is implemented using simple programming logic.
-Players take turns by clicking on the cells.
-The system checks the game status after each move.
+- The game is implemented using simple programming logic.
+- Players take turns by clicking on the cells.
+- The system checks the game status after each move.
 
 
 # Helping Hands – NGO Information Website
