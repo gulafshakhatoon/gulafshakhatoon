@@ -17,9 +17,10 @@
 - Python  
   
 ## Projects
-- Beginner-level web projects  
-- Practice programs in C, Python, and Java  
-- Small academic and learning projects  
+- Web development mini projects using HTML, CSS, and JavaScript  
+- JavaScript-based applications such as Calculator, Quiz App, and To-Do List  
+- Logic-building programs in C, Python, and Java  
+- Academic and self-learning projects
 
 ##  Currently Learning
 - Advanced Java concepts
