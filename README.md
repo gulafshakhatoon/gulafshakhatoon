@@ -1,42 +1,45 @@
-# Hi 👋, I'm Gulafsha Khatoon  
+# Hi 👋, I'm Khan Gulafsha Khatoon  
 
 🎓 SY IT Student  
-💻 Beginner Programmer & Web Development Learner  
+💻 Web Development Enthusiast  
 
-## 👩‍💻 About Me
-- I am a Second Year Information Technology student  
-- I am learning Web Development and core programming languages  
-- I enjoy building small projects to improve my skills  
-- I am passionate about technology and continuous learning  
+## ✨ About Me
+I’m a curious IT student who loves learning new technologies and building fun, useful projects.  
+I believe in learning by doing and improving step by step 🚀
 
-## Skills & Technologies
-- HTML  
-- CSS  
+## 🛠️ Skills & Technologies
+- HTML, CSS  
 - JavaScript  
 - C Programming  
 - Python  
-  
-## Projects
-- Web development mini projects using HTML, CSS, and JavaScript  
-- JavaScript-based applications such as Calculator, Quiz App, and To-Do List  
+- Java (Basic)  
+
+## 💡 Projects
+- Responsive web applications using HTML, CSS, and JavaScript  
+- Interactive apps like Calculator, Quiz App, and To-Do List  
 - Logic-building programs in C, Python, and Java  
-- Academic and self-learning projects
+- College and self-initiated projects  
 
-##  Currently Learning
-- Advanced Java concepts
-- Advanced Python concepts 
+## 🎯 Career Objective
+To gain practical experience through an internship, learn from industry professionals, and contribute to real-world projects.
+
+## 📖 Currently Exploring
+- Advanced Java & Python  
 - JavaScript practice  
-- Problem solving  
+- Problem Solving techniques  
 
-## 🔗 Connect With Me
--  LinkedIn: https://www.linkedin.com/in/gulafsha-khatoon  
--  GitHub: https://github.com/gulafshakhatoon  
+## 🎯 Goals
+- Become a full-stack web developer  
+- Strengthen problem-solving and programming skills  
+- Build impactful real-world projects  
 
- *Thank you for visiting my profile!*
+## 🧰 Tools
+- VS Code  
+- Git & GitHub  
+- Chrome DevTools  
 
+## 🌐 Let’s Connect
+- 🔗 LinkedIn: https://www.linkedin.com/in/gulafsha-khatoon  
+- 💻 GitHub: https://github.com/gulafshakhatoon  
 
-
-
-
-
-
+✨ Thanks for stopping by! Feel free to explore my work 😊
