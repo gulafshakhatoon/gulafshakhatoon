@@ -173,5 +173,3 @@ menuIcon.addEventListener("click",()=>{
 });
 
 
-// https://static.vecteezy.com/system/resources/thumbnails/043/102/351/small/businesswoman-portrait-beautiful-businesswoman-wearing-black-suit-png.png
-// optional link for portfolio profile
