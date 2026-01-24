@@ -36,7 +36,10 @@ To gain practical experience through an internship, learn from industry professi
 ## 🧰 Tools
 - VS Code  
 - Git & GitHub  
-- Chrome DevTools  
+- Chrome DevTools
+
+## 🔗 Live Demo
+👉 (https://gulafshakhatoon.github.io/portfolio/)
 
 ## 🌐 Let’s Connect
 - 🔗 LinkedIn: https://www.linkedin.com/in/gulafsha-khatoon  
